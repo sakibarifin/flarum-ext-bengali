@@ -15,9 +15,9 @@ flarum-tags:
     edit_tag:
       color_label: রঙ
       delete_tag_button: ট্যাগ মুছুন
-      delete_tag_confirmation: "আপনি কি এই ট্যাগটিকে মুছে দিতে চান? ট্যাগ এর আলোচনা সমূহ মুছে ফেলা হবে না।"
+      delete_tag_confirmation: "আপনি কি এই ট্যাগটিকে মুছে দিতে চান? ট্যাগ এর প্রশ্ন সমূহ মুছে ফেলা হবে না।"
       description_label: বিবরণ
-      hide_label: সব আলোচনা থেকে লুকান
+      hide_label: সব প্রশ্ন থেকে লুকান
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: স্লুগ
@@ -27,7 +27,7 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: আলোচনা সমূহের সাথে ট্যাগ সমূহের তালিকা পরিচালনা করা হয়। 
+      tags_text: প্রশ্নগুলো সাথে ট্যাগ গুলোর তালিকা পরিচালনা করা হয়।
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -61,7 +61,7 @@ flarum-tags:
       choose_secondary_placeholder: "নির্বাচন করুন ১ টির বেশি ট্যাগ|নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
       edit_title: "Edit Tags for {title}"
       submit_button: => core.ref.okay
-      title: আপনার আলোচনা জন্য ট্যাগ নির্বাচন করুন
+      title: আপনার প্রশ্নের জন্য ট্যাগ নির্বাচন করুন
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:

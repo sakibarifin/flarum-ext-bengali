@@ -225,10 +225,10 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: পোস্ট লিখুন ...
-      discard_confirmation: "আপনি আপনার আলোচনা পোস্ট করেন নি। আপনি কি এটি বাতিল করতে চান?"
+      discard_confirmation: "প্রশ্ন টি পোস্ট করা হয়নি।। এটি বাতিল করতে চান?"
       submit_button: পোস্ট
       title: => core.ref.start_a_discussion
-      title_placeholder: আলোচনার শিরোনাম
+      title_placeholder: প্রশ্নের শিরোনাম
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -247,9 +247,9 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: উত্তর দিতে পারবেন না
-      cannot_reply_text: আপনার এই আলোচনার উত্তর দেওয়ার অনুমতি নেই।
+      cannot_reply_text: এই প্রশ্নের উত্তর দেওয়ার অনুমতি নেই।
       delete_button: => core.ref.delete
-      delete_confirmation: "আপনি কি এই আলোচনা মুছে ফেলতে চান?"
+      delete_confirmation: "প্রশ্নটি মুছে ফেলতে চান??"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: উত্তর দিতে লগ ইন করুন
       rename_button: => core.ref.rename
@@ -291,7 +291,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: নিয়ন্ত্রণ কেন্দ্র
-      back_to_index_tooltip: আলোচনা ফিরে যান
+      back_to_index_tooltip: প্রশ্নে ফিরে যান
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: প্রোফাইল
@@ -302,8 +302,8 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: আলোচনা শুরু করতে পারবেন না
-      mark_all_as_read_confirmation: "আপনি কি পড়ার মত সব আলোচনাকে চিহ্নিত করতে চান?"
+      cannot_start_discussion_button: প্রশ্ন করতে পারবেন না
+      mark_all_as_read_confirmation: "আপনি কি পড়ার মত সব প্রশ্নকে চিহ্নিত করতে চান?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: রিফ্রেশ
       start_discussion_button: => core.ref.start_a_discussion
@@ -365,7 +365,7 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: আলোচনা পুনরায় নামকরণ করুন
+      title: প্রশ্নের নাম পরিবর্তন করুন
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
@@ -382,7 +382,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: কেউ আপনার আলোচনার নাম পরিবর্তন করেছে
+      notify_discussion_renamed_label: কেউ আপনার প্রশ্নের নাম পরিবর্তন করেছে
       privacy_disclose_online_label: যখন আমি অনলাইনে আছি, অন্যদের দেখতে দিন
       privacy_heading: গোপনীয়তা
       title: => core.ref.settings
@@ -531,14 +531,14 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: সব আলোচনা
+    all_discussions: সব প্রশ্ন
     change_email: ইমেল পরিবর্তন করুন
     change_password: পাসওয়ার্ড পরিবর্তন করুন
     confirm_password: পাসওয়ার্ড নিশ্চিত করুন
     confirmation_email_sent: "আমরা  এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পাঠিয়েছি। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন।"
     delete: মুছুন
     delete_forever: চিরতরে মুছুন
-    discussions: আলোচনা
+    discussions: প্রশ্ন
     edit: সম্পাদন
     email: ইমেইল
     load_more: আরো লোড করুন
@@ -557,7 +557,7 @@ core:
     settings: সেটিংস
     sign_up: নিবন্ধন করুন
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: আলোচনা শুরু করুন
+    start_a_discussion: প্রশ্ন করুন
     username: ব্যবহারকারীর নাম
     write_a_reply: প্রতিউত্তর লেখেন...
     you: আপনি                                     # Referenced by flarum-likes.yml, flarum-mentions.yml

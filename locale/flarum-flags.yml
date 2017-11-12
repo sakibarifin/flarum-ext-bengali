@@ -27,7 +27,7 @@ flarum-flags:
       reason_inappropriate_label: অনুপযুক্ত
       reason_inappropriate_text: "এই পোস্টটি আপত্তিকর, অপমানজনক, বা লঙ্ঘন আমাদের <a>কমিউনিটি নীতিমালা</a>।"
       reason_off_topic_label: "বন্ধ করা টপিক"
-      reason_off_topic_text: এই পোস্টটি বর্তমান আলোচনার জন্য প্রাসঙ্গিক নয় এবং অন্য কোথাও স্থানান্তর করা উচিত।
+      reason_off_topic_text: এই পোস্টটি বর্তমান প্রশ্নের জন্য প্রাসঙ্গিক নয় এবং অন্য কোথাও স্থানান্তর করা উচিত।
       reason_other_label: অন্যান্য
       reason_spam_label: স্প্যাম
       reason_spam_text: এই পোস্টটি একটি বিজ্ঞাপন।

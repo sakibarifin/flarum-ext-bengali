@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: আলোচনা লক করুন
+      lock_discussions_label: প্রশ্ন লক করুন
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -29,9 +29,9 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} এর আলোচনা লক করা।"
-      discussion_unlocked_text: "{username} এর আলোচনা আনলক করা।"
+      discussion_locked_text: "{username} এর প্রশ্ন লক করা।"
+      discussion_unlocked_text: "{username} এর প্রশ্ন আনলক করা।"
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: আমার শুরু করা আলোচনা কেউ লক করেছে 
+      notify_discussion_locked_label: আমার শুরু করা প্রশ্ন কেউ লক করেছে 
