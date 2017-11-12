@@ -489,27 +489,27 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: অ্যাকাউন্ট যাচাই করুন
       body: |
         Hey {username}!
 
         Someone (hopefully you!) has signed up to {forum} with this email address.
 
         If this was you, simply click the following link and your account will be activated:
-        {url}
+        <a href=\"{url}\"  target=\"_blank\">যাচাই করুন</a>
 
         If you did not sign up, please ignore this email.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: নতুন ইমেইল ঠিকানা নিশ্চিত করুন
       body: |
         Hey {username}!
 
         Someone (hopefully you!) has changed their email address on {forum} to this one.
 
         If this was you, simply click the following link and your email will be confirmed:
-        {url}
+        <a href=\"{url}\"  target=\"_blank\">যাচাই করুন</a>
 
         If this was not you, please ignore this email.
 
