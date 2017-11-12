@@ -491,40 +491,39 @@ core:
     activate_account:
       subject: অ্যাকাউন্ট যাচাই করুন
       body: |
-        Hey {username}!
+        ওহে {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        {forum} এ (আশা করি আপনি!) সাইন আপ করেছেন এই ইমেল ঠিকানা দিয়ে।
 
-        If this was you, simply click the following link and your account will be activated:
+        যদি আপনি নিবন্ধন করে থাকেন , কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করা হবে:
         <a href=\"{url}\"  target=\"_blank\">যাচাই করুন</a>
-
-        If you did not sign up, please ignore this email.
+        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন।
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       subject: নতুন ইমেইল ঠিকানা নিশ্চিত করুন
       body: |
-        Hey {username}!
+        ওহে {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        {forum} এ  (আশা করছি আপনি!) আপনার  ইমেল ঠিকানাটি পরিবর্তন করতেচাচ্ছেন ।
 
-        If this was you, simply click the following link and your email will be confirmed:
-        <a href=\"{url}\"  target=\"_blank\">যাচাই করুন</a>
+        যদি আপনি হন, কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার ইমেইল নিশ্চিত করা হবে:
+        <a href=\"{url}\"  target=\"_blank\">ইমেইল পরিবর্তন করুন</a>
 
-        If this was not you, please ignore this email.
+        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন।
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        ওহে {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        {forum} এ (আশা করছি আপনি!) আপনার ভুলে যাওয়া পাসওয়ার্ড অনুরোধ  করেছেন।
+      
+        যদি আপনি হয়ে থাকেন, তাহলে আপনার পাসওয়ার্ডটি পুনরায় সেট করার জন্য নিম্নোক্ত লিঙ্কটি ক্লিক করুন
 
-        If this was you, click the following link to reset your password:
-        {url}
-
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        <a href=\"{url}\"  target=\"_blank\">পাসওয়ার্ডটি পুনরায় সেট করুন </a>
+        আপনি যদি আপনার পাসওয়ার্ড পরিবর্তন করতে না চান, তবে এই ইমেলটি উপেক্ষা করুন এবং এতে কিছুই ঘটবে না
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
