@@ -38,8 +38,8 @@ flarum-subscriptions:
       following_text: সমস্ত জবাবের বিজ্ঞপ্তি জানানো হবে
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: কখনোই বিজ্ঞাপিত হবে না প্রশ্ন  তালিকা থেকে লুকান।
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
+      not_following_button: অনুসরণ করছেন না
+      not_following_text: "বিজ্ঞপ্তি জানান যখন আমাকে @উল্লেখ করা হয়।"
       notify_alert_tooltip: নতুন পোস্ট হলে একটি বিজ্ঞপ্তি দেওয়া হোক
       notify_email_tooltip: নতুন পোস্ট হলে একটি ইমেইল পাঠানো হোক
 
