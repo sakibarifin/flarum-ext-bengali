@@ -312,7 +312,7 @@ core:
     index_sort:
       latest_button: সর্বশেষ
       newest_button: নতুন
-      oldest_button: পুরান
+      oldest_button: পুরাতন
       relevance_button: প্রাসঙ্গিকতা
       top_button: উপরে
 
