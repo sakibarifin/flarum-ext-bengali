@@ -59,7 +59,7 @@ flarum-tags:
     choose_tags:
       choose_primary_placeholder: "একটি প্রাথমিক ট্যাগ চয়ন করুন |নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
       choose_secondary_placeholder: "নির্বাচন করুন ১ টির বেশি ট্যাগ|নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
-      edit_title: "Edit Tags for {title}"
+      edit_title: "{title} শিরোনামের জন্য ট্যাগগুলি সম্পাদন।"
       submit_button: => core.ref.okay
       title: আপনার প্রশ্নের জন্য ট্যাগ নির্বাচন করুন
 

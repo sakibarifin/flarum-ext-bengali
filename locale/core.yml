@@ -232,8 +232,8 @@ core:
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "আপনি আপনার পরিবর্তনগুলি সংরক্ষণ করেননি আপনি কি তাদের বাতিল করতে চান?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "পরিবর্তনগুলি সংরক্ষণ করেননি। আপনি কি এটি বাতিল করতে চান?"
+      post_link: "পোস্ট #{number} এবং {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -350,14 +350,14 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
+      now_link: বর্তমানে
       original_post_link: মূল পোস্ট
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      unread_text: "{count} অপঠিত"
+      viewing_text: "{count} মধ্যে {index} টি পোস্ট|{count} মধ্যে {index} টি পোস্ট"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
+      discussion_renamed_old_tooltip: 'পুরানো শিরোনাম ছিল: "{old}"'
       discussion_renamed_text: "{username} changed the title to {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
@@ -370,7 +370,7 @@ core:
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'সব প্রশ্নের  জন্য অনুসন্ধান "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: ব্যবহারকারীরা
 
@@ -559,7 +559,7 @@ core:
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: প্রশ্ন করুন
     username: ব্যবহারকারীর নাম
-    write_a_reply: প্রতিউত্তর লেখেন...
+    write_a_reply: প্রতিউত্তর লিখুন...
     you: আপনি                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
