@@ -3,7 +3,7 @@ flarum-best-answer:
         permissions:
             best_answer: => flarum-best-answer.ref.best_answer
     forum:
-        this_best_answer: "এটি সেরা উত্তর"
+        this_best_answer: "সেরা উত্তর"
         remove_best_answer: "সেরা উত্তর না"
         header_best_answer: "সেরা উত্তর হিসেবে পোষ্টটি প্রশ্ন কর্তা দ্বারা বাধা"
         best_answer_button: => flarum-best-answer.ref.best_answer
