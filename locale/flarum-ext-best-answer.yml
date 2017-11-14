@@ -5,7 +5,7 @@ flarum-best-answer:
     forum:
         this_best_answer: "সেরা উত্তর"
         remove_best_answer: "সেরা উত্তর না"
-        header_best_answer: "সেরা উত্তর হিসেবে পোষ্টটি প্রশ্ন কর্তা দ্বারা বাধা"
+        header_best_answer: "সেরা উত্তর হিসাবে চিহ্নিত করেছে"
         best_answer_button: => flarum-best-answer.ref.best_answer
         best_answer: => flarum-best-answer.ref.best_answer
     ref:

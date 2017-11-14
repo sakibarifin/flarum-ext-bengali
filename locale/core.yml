@@ -38,11 +38,11 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: নির্ধারিত ভাষা
       forum_description_heading: ফোরাম বর্ণনা
-      forum_description_text: আপনার সম্প্রদায় বর্ণনা করে একটি বা দুটি সংক্ষিপ্ত বাক্য  লিখুন। এটি মেটা ট্যাগের মধ্যে প্রদর্শিত হবে এবং অনুসন্ধান ইঞ্জিনগুলিতে প্রদর্শিত হবে।
+      forum_description_text: আপনার সম্প্রদায় বর্ণনা করে একটি বা দুটি সংক্ষিপ্ত বাক্য  লিখুন। এটি মেটা ট্যাগের মধ্যে প্রদর্শিত হবে এবং অনুসন্ধান ইঞ্জিনগুলিতে প্রদর্শিত হবে
       forum_title_heading: ফোরাম এর শিরোনাম
       home_page_heading: প্রচ্ছদ
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: আপনার পরিবর্তনগুলি সংরক্ষণ করা হয়েছে
+      saved_message: পরিবর্তনগুলি সংরক্ষণ করা হয়েছে
       show_language_selector_label: ভাষা নির্বাচক দেখান
       submit_button: => core.ref.save_changes
       welcome_banner_heading: স্বাগতম ব্যানার
@@ -85,46 +85,45 @@ core:
       title: Edit Custom Header
 
     # These translations are used in the email page of the admin interface.
+
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: অ্যাকাউন্ট যাচাই করুন
       body: |
-        Hey {username}!
+        ওহে {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        {forum} এ (আশা করি আপনি!) সাইন আপ করেছেন এই ইমেল ঠিকানা দিয়ে
 
-        If this was you, simply click the following link and your account will be activated:
+        যদি আপনি নিবন্ধন করে থাকেন , কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করা হবে:
         {url}
-
-        If you did not sign up, please ignore this email.
+        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject:  নতুন ইমেইল ঠিকানা নিশ্চিত করুন
       body: |
-        Hey {username}!
+        ওহে {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        {forum} এ  (আশা করছি আপনি!) আপনার  ইমেল ঠিকানাটি পরিবর্তন করতেচাচ্ছেন 
 
-        If this was you, simply click the following link and your email will be confirmed:
+        যদি আপনি হন, কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার ইমেইল নিশ্চিত করা হবে:
         {url}
 
-        If this was not you, please ignore this email.
+        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        ওহে {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
-
-        If this was you, click the following link to reset your password:
+        {forum} এ (আশা করছি আপনি!) আপনার ভুলে যাওয়া পাসওয়ার্ড অনুরোধ  করেছেন
+      
+        যদি আপনি হয়ে থাকেন, তাহলে আপনার পাসওয়ার্ডটি পুনরায় সেট করার জন্য নিম্নোক্ত লিঙ্কটি ক্লিক করুন
         {url}
-
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        আপনি যদি আপনার পাসওয়ার্ড পরিবর্তন করতে না চান, তবে এই ইমেলটি উপেক্ষা করুন এবং এতে কিছুই ঘটবে না
 
     # These translations are used in the Extensions page.
     extensions:
@@ -147,13 +146,13 @@ core:
       basics_button: প্রাথমিক
       basics_text: "আপনার ফোরাম শিরোনাম, ভাষা এবং অন্যান্য মৌলিক সেটিংস সেট করুন"
       dashboard_button: ড্যাশবোর্ড
-      dashboard_text: আপনার ফোরাম এক নজরে।
+      dashboard_text: আপনার ফোরাম এক নজরে
       email_button: => core.ref.email
-      email_text: "আপনার ফোরামে ইমেইল সেটিংস কনফিগার করুন।"
+      email_text: "আপনার ফোরামে ইমেইল সেটিংস কনফিগার করুন"
       extensions_button: এক্সটেনশানগুলি
-      extensions_text: আপনার ফোরামে অতিরিক্ত কার্যকারিতা জুড়ুন এবং এটি আপনার নিজস্ব করুন।
+      extensions_text: আপনার ফোরামে অতিরিক্ত কার্যকারিতা জুড়ুন এবং এটি আপনার নিজস্ব করুন
       permissions_button: অনুমতিসমূহ
-      permissions_text: কে দেখতে এবং কনফিগার করতে পারে।
+      permissions_text: কে দেখতে এবং কনফিগার করতে পারে
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -205,14 +204,14 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: আপনার প্রবেশ করা পাসওয়ার্ডটি ভুল।
+      incorrect_password_message: আপনার প্রবেশ করা পাসওয়ার্ডটি ভুল
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: পাসওয়ার্ড রিসেট ইমেইল পাঠান
-      text: নীচের বোতামটি ক্লিক করুন এবং  আপনার ইমেল চেক করুন পাসওয়ার্ড পরিবর্তন করতে একটি লিঙ্কের পাঠানো হয়েছে  ।
+      send_button: ইমেইল পাঠান
+      text: নীচের বোতামটি ক্লিক করুন এবং  আপনার ইমেল চেক করুন পাসওয়ার্ড পরিবর্তন করতে একটি লিঙ্কের পাঠানো হয়েছে  
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -225,29 +224,29 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: পোস্ট লিখুন ...
-      discard_confirmation: "প্রশ্ন টি পোস্ট করা হয়নি।। এটি বাতিল করতে চান?"
+      discard_confirmation: "প্রশ্ন টি পোস্ট করা হয়নি। এটি বাতিল করতে চান?"
       submit_button: পোস্ট
       title: => core.ref.start_a_discussion
       title_placeholder: প্রশ্নের শিরোনাম
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "পরিবর্তনগুলি সংরক্ষণ করেননি। আপনি কি এটি বাতিল করতে চান?"
+      discard_confirmation: "পরিবর্তন সংরক্ষণ করেননি। আপনি কি এটি বাতিল করতে চান?"
       post_link: "পোস্ট #{number} এবং {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "আপনি আপনার উত্তর পোস্ট করেন নি। আপনি কি এটি বাতিল করতে চান?"
-      posted_message: আপনার উত্তর পোস্ট করা হয়েছে।
+      discard_confirmation: "আপনার উত্তর পোস্ট করেন নি। আপনি কি এটি বাতিল করতে চান?"
+      posted_message: আপনার উত্তর পোস্ট করা হয়েছে
       submit_button: জবাব দিন
       view_button: দেখুন
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: উত্তর দিতে পারবেন না
-      cannot_reply_text: এই প্রশ্নের উত্তর দেওয়ার অনুমতি নেই।
+      cannot_reply_text: এই প্রশ্নের উত্তর দেওয়ার অনুমতি নেই
       delete_button: => core.ref.delete
       delete_confirmation: "প্রশ্নটি মুছে ফেলতে চান??"
       delete_forever_button: => core.ref.delete_forever
@@ -258,7 +257,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: দেখে মনে হচ্ছে, এখানে কোন আলোচনা নেই।
+      empty_text: দেখে মনে হচ্ছে, এখানে কোন আলোচনা নেই
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: পঠিত হিসেবে চিহ্নিত করুন
       replied_text: "{username} জবাব দিয়েছে {ago}"
@@ -283,9 +282,9 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: আমরা আপনার পাসওয়ার্ড পুনরায় সেট করার জন্য একটি লিঙ্ক ইমেল ঠিকানায় পাঠানো হয়েছে। আপনার স্প্যাম ফোল্ডারটি চেক করুন, যদি আপনি তা পরবর্তী দুই মিনিটের মধ্যে না পান।
-      not_found_message: এই ইমেল ঠিকানার দিয়ে এখনো কোনো নিবন্ধন করা হয়নি।
+      not_found_message: এই ইমেল ঠিকানার দিয়ে এখনো কোনো নিবন্ধন করা হয়নি
       submit_button: পাসওয়ার্ড উদ্ধার করুন
-      text: আপনার ইমেল ঠিকানা লিখুন এবং আমরা আপনাকে পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্ক পাঠানো হবে।
+      text: আপনার ইমেল ঠিকানা লিখুন এবং আমরা আপনাকে পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্ক পাঠানো হবে
       title: পাসওয়ার্ড ভুলে গেছেন
 
     # These translations are used in the header and session dropdown menu.
@@ -319,13 +318,13 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "পাসওয়ার্ড ভুলে গেছেন?"
-      invalid_login_message: আপনার লগইন সঠিক নয়।
+      invalid_login_message: আপনার লগইন সঠিক নয়
       password_placeholder: => core.ref.password
       remember_me_label: মনে রাখুন
       sign_up_text: "অ্যাকাউন্ট নেই? <a>নিবন্ধন করুন</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: ব্যবহারকারী নাম বা ইমেল
+      username_or_email_placeholder: নাম বা ইমেল
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -381,8 +380,8 @@ core:
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: কেউ আপনার প্রশ্নের নাম পরিবর্তন করেছে
+      notify_by_web_heading: ওয়েব
+      notify_discussion_renamed_label: প্রশ্নের শিরোনাম পরিবর্তন করা
       privacy_disclose_online_label: যখন আমি অনলাইনে আছি, অন্যদের দেখতে দিন
       privacy_heading: গোপনীয়তা
       title: => core.ref.settings
@@ -416,7 +415,7 @@ core:
     user_controls:
       button: নিয়ন্ত্রণ
       delete_button: => core.ref.delete
-      delete_confirmation: "আপনি কি এই ব্যবহারকারী মুছে ফেলতে চান? ব্যবহারকারীর সকল পোস্ট মোছা হবে।"
+      delete_confirmation: "ব্যবহারকারী কে মুছে ফেলতে চান? ব্যবহারকারী সকল পোস্ট মুছে ফেলা হবে"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -438,10 +437,10 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "ওহো! কিছু ভুল হয়েছে। পৃষ্ঠাটি পুনরায় লোড করে আবার চেষ্টা করুন।"
-      not_found_message: অনুরোধকৃত সম্পদ পাওয়া যায়নি।
-      permission_denied_message: আপনার কাছে এই কাজ করার অনুমতি নেই।
-      rate_limit_exceeded_message: আপনি খুব দ্রুত একটু চলুন। দয়া করে কয়েক সেকেন্ডের মধ্যে আবার চেষ্টা করুন।
+      generic_message: "ওহো! কিছু ভুল হয়েছে। পৃষ্ঠাটি পুনরায় লোড করে আবার চেষ্টা করুন"
+      not_found_message: অনুরোধকৃত সম্পদ পাওয়া যায়নি
+      permission_denied_message: এই কাজ করার অনুমতি নেই
+      rate_limit_exceeded_message: খুব দ্রুত একটু চলুন। দয়া করে কয়েক সেকেন্ডের মধ্যে আবার চেষ্টা করুন
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -459,8 +458,8 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: এই সাইটটি জাভাস্ক্রিপ্ট সক্ষম সহ একটি আধুনিক ব্রাউজারে ভাল দেখা যায়।
-      load_error_message: এই সাইটের সম্পূর্ণ সংস্করণ লোড করার চেষ্টা করার সময় কিছু ভুল হয়েছে।
+      javascript_disabled_message: এই সাইটটি জাভাস্ক্রিপ্ট সক্ষম সহ একটি আধুনিক ব্রাউজারে ভাল দেখা যায়
+      load_error_message: এই সাইটের সম্পূর্ণ সংস্করণ লোড করার চেষ্টা করার সময় কিছু ভুল হয়েছে
       loading_text: লোড হচ্ছে ...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -482,7 +481,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "ব্যবহারকারীর নাম কেবল অক্ষর, সংখ্যা এবং ড্যাশ থাকতে পারে।"
+    invalid_username_message: "নাম কেবল অক্ষর, সংখ্যা এবং ড্যাশ থাকবে"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -492,12 +491,14 @@ core:
       subject: অ্যাকাউন্ট যাচাই করুন
       body: |
         ওহে {username}!
+        
+        
 
-        {forum} এ (আশা করি আপনি!) সাইন আপ করেছেন এই ইমেল ঠিকানা দিয়ে।
+        {forum} এ (আশা করি আপনি!) সাইন আপ করেছেন এই ইমেল ঠিকানা দিয়ে
 
         যদি আপনি নিবন্ধন করে থাকেন , কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করা হবে:
-        <a href=\"{url}\"  target=\"_blank\">যাচাই করুন</a>
-        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন।
+             {url}
+        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
@@ -505,12 +506,12 @@ core:
       body: |
         ওহে {username}!
 
-        {forum} এ  (আশা করছি আপনি!) আপনার  ইমেল ঠিকানাটি পরিবর্তন করতেচাচ্ছেন ।
+        {forum} এ  (আশা করছি আপনি!) আপনার  ইমেল ঠিকানাটি পরিবর্তন করতেচাচ্ছেন 
 
         যদি আপনি হন, কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার ইমেইল নিশ্চিত করা হবে:
-        <a href=\"{url}\"  target=\"_blank\">ইমেইল পরিবর্তন করুন</a>
+        {url}
 
-        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন।
+        আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -518,11 +519,11 @@ core:
       body: |
         ওহে {username}!
 
-        {forum} এ (আশা করছি আপনি!) আপনার ভুলে যাওয়া পাসওয়ার্ড অনুরোধ  করেছেন।
+        {forum} এ (আশা করছি আপনি!) আপনার ভুলে যাওয়া পাসওয়ার্ড অনুরোধ  করেছেন
       
         যদি আপনি হয়ে থাকেন, তাহলে আপনার পাসওয়ার্ডটি পুনরায় সেট করার জন্য নিম্নোক্ত লিঙ্কটি ক্লিক করুন
 
-        <a href=\"{url}\"  target=\"_blank\">পাসওয়ার্ডটি পুনরায় সেট করুন </a>
+          {url} 
         আপনি যদি আপনার পাসওয়ার্ড পরিবর্তন করতে না চান, তবে এই ইমেলটি উপেক্ষা করুন এবং এতে কিছুই ঘটবে না
 
   ##
@@ -535,7 +536,7 @@ core:
     change_email: ইমেল পরিবর্তন করুন
     change_password: পাসওয়ার্ড পরিবর্তন করুন
     confirm_password: পাসওয়ার্ড নিশ্চিত করুন
-    confirmation_email_sent: "আমরা  এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পাঠিয়েছি। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন।"
+    confirmation_email_sent: " এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পারানো হয়েছে। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন"
     delete: মুছুন
     delete_forever: চিরতরে মুছুন
     discussions: প্রশ্ন
@@ -551,14 +552,14 @@ core:
     password: পাসওয়ার্ড
     rename: পুনঃনামকরণ
     reply: উত্তর দিন                                 # Referenced by flarum-mentions.yml
-    reset_your_password: আপনার পাসওয়ার্ড পুনরায় সেট
+    reset_your_password: পাসওয়ার্ড পুনরায় সেট
     restore: পুনঃস্থাপন
-    save_changes: পরিবর্তনসমূহ সংরক্ষণ করুন                 # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: সংরক্ষণ করুন                 # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: সেটিংস
-    sign_up: নিবন্ধন করুন
+    sign_up: নিবন্ধন  # mail signup header
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: প্রশ্ন করুন
-    username: ব্যবহারকারীর নাম
+    username: নাম
     write_a_reply: প্রতিউত্তর লিখুন...
     you: আপনি                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 

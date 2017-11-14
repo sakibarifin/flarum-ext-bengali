@@ -9,8 +9,8 @@ flarum-akismet:
 
     # These translations are used in the Akismet Settings modal dialog.
     akismet_settings:
-      api_key_label: API Key
-      title: Akismet Settings
+      api_key_label: এপিআই কি 
+      title: আঁকিসমেত সেটিং
 
   # Translations in this namespace are used by the forum user interface.
   forum:
