@@ -127,9 +127,9 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: নতুন এক্সটেনশান
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: আনইনস্টল
 
     # These translations are used in the session dropdown menu.
     header:
@@ -543,7 +543,7 @@ core:
     edit: সম্পাদন
     email: ইমেইল
     load_more: আরো লোড করুন
-    log_in: লগইন
+    log_in: প্রবেশ
     log_out: প্রস্থান
     mark_all_as_read: পঠিত হিসাবে চিহ্নিত করুন
     next_page: পরবর্তী পৃষ্ঠা
