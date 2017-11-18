@@ -16,13 +16,13 @@ flarum-suspend:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: অনির্দিষ্ট সময়ের জন্য নিষিদ্ধ
-      limited_time_label: সীমিত সময়ের জন্য নিষিদ্ধ ...
-      limited_time_days_text: " দিন"
+      indefinitely_label: অ্যাকাউন্ট স্থগিত 
+      limited_time_label: এর অ্যাকাউন্ট স্থগিত করা হবে 
+      limited_time_days_text: "  দিনের জন্য"
       not_suspended_label: নিষিদ্ধ না
-      status_heading: নিষিদ্ধ অবস্থা
+      status_heading: স্থগিত এর অবস্থা
       submit_button: => core.ref.save_changes
-      title: "{username} নিষিদ্ধ"
+      title: "{username} অ্যাকাউন্ট স্থগিত"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
