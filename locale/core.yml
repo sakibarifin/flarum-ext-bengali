@@ -538,7 +538,7 @@ core:
     confirm_password: পাসওয়ার্ড নিশ্চিত করুন
     confirmation_email_sent: " এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পারানো হয়েছে। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন"
     delete: মুছুন
-    delete_forever: চিরতরে মুছুন
+    delete_forever: স্থায়ীভাবে মুছুন
     discussions: প্রশ্ন
     edit: সম্পাদন
     email: ইমেইল
