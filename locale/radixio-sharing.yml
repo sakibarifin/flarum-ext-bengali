@@ -16,11 +16,11 @@ radixio-sharing:
     linkedin_button: => radixio-sharing.ref.linkedin
 
   ref:
-      facebook: ফেসবুক
-      vkontakte: VKontakte
-      twitter: টুইটার
-      google_plus: Google+
-      odnoklassniki: Odnoklassniki
-      my_mail: My World
-      linkedin: লিঙ্কডইন
-      share: ভাগ করুন
+    facebook: ফেসবুক
+    vkontakte: VKontakte
+    twitter: টুইটার
+    google_plus: Google+
+    odnoklassniki: Odnoklassniki
+    my_mail: My World
+    linkedin: লিঙ্কডইন
+    share: ভাগ করুন

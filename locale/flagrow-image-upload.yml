@@ -8,7 +8,7 @@ flagrow-image-upload:
             error: কোথাও ভুল হয়েছে
     admin:
         permissions:
-            upload_images_label: ছবি আপলোড করুন
+            upload_images_label: Upload images
         upload_methods:
             local: Local
             imgur: Imgur
